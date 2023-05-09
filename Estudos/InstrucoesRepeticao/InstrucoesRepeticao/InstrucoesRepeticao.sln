@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForQuestao05", "Questao05\F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForQuestao06", "ForQuestao06\ForQuestao06.csproj", "{82255819-4DF8-45E7-B883-1D7F43902684}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Break", "Break\Break.csproj", "{3B5CEC7C-17AF-4041-9A7F-2A8568002631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioBreak", "DesafioBreak\DesafioBreak.csproj", "{B314FE9E-5B55-4B3A-B716-CFAF36FF2BCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{82255819-4DF8-45E7-B883-1D7F43902684}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82255819-4DF8-45E7-B883-1D7F43902684}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82255819-4DF8-45E7-B883-1D7F43902684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B5CEC7C-17AF-4041-9A7F-2A8568002631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5CEC7C-17AF-4041-9A7F-2A8568002631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5CEC7C-17AF-4041-9A7F-2A8568002631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5CEC7C-17AF-4041-9A7F-2A8568002631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B314FE9E-5B55-4B3A-B716-CFAF36FF2BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B314FE9E-5B55-4B3A-B716-CFAF36FF2BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B314FE9E-5B55-4B3A-B716-CFAF36FF2BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B314FE9E-5B55-4B3A-B716-CFAF36FF2BCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
