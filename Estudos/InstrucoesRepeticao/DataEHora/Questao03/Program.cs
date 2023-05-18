@@ -10,16 +10,24 @@ namespace Questao03
     {
         static void Main(string[] args)
         {
-            DateTime dataAtual = DateTime.Now;
+
             Console.Write("Data de Nascimento: ");
             DateTime dataNasc = DateTime.Parse(Console.ReadLine());
+            CalcularIdadeDetalhada(dataNasc);
+            Console.ReadKey();
+        }
+        static void CalcularIdadeDetalhada(DateTime dtNascimento)
+        {
+            DateTime dataAtual = DateTime.Now;
+            
+            TimeSpan diferenca = dataAtual - dtNascimento;
+            DateTime idade = DateTime.MinValue + diferenca;
 
-            int ano = dataAtual.Year - dataNasc.Year;
-            int mes = dataAtual.Month - dataNasc.Month;
-            int dia = dataAtual.Day - dataNasc.Day;
+            int ano = idade.Year - 1;
+            int mes = idade.Month - 1;
+            int dia = idade.Day - 1;
 
             Console.WriteLine($"Sua idade é {ano} anos, {mes} meses e {dia} dias");
-            
         }
     }
 }

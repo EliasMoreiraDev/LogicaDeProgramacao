@@ -12,7 +12,7 @@ namespace Questao01
         {
             string hora = DateTime.Now.ToShortTimeString();
             Console.WriteLine("\nHora: " + hora);
-
+            
             string data = DateTime.Now.ToShortDateString();
             Console.WriteLine("Data: " + data);
 
