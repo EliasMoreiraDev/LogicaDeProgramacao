@@ -17,6 +17,6 @@ namespace Array
                 numeros[i] = i * 2;
                 Console.WriteLine(numeros[i]);
             }*/
-          
+        }
     }
 }
